@@ -112,7 +112,7 @@ const questions = [
         answers: [
             { text: "KBFC", correct: false },
             { text: "Jamshedpur", correct: false },
-            { text: "ATK Mohan Bagan", correct: true },
+            { text: "Mumbai FC", correct: true },
             { text: "Odisha", correct: false }
         ]
     },
@@ -132,6 +132,15 @@ const questions = [
             { text: "John F Kennedy", correct: false },
             { text: "Abraham Lincoln", correct: true },
             { text: "Nelson Mandela", correct: false }
+        ]
+    },
+    {
+        question: "16.In what year the Great October Socialist Revolution take place ?",
+        answers: [
+            { text: "1917", correct: true },
+            { text: "1923", correct: false },
+            { text: "1916", correct: false },
+            { text: "1920", correct: false }
         ]
     },
 ]
