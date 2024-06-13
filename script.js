@@ -156,7 +156,7 @@ function showQuestion(question) {
     question.answers.forEach(answer => {
         const button = document.createElement('button');
         button.innerText = answer.text;
-        button.classList.add('btn', 'border', 'border-white', 'rounded', 'p-2', 'm-2', 'text-white', 'bg-gray-800','w-[450px]');
+        button.classList.add('btn', 'border', 'border-white', 'rounded-[10px]', 'p-2', 'm-2', 'text-white', 'bg-gray-800','w-[450px]');
         if (answer.correct) {
             button.dataset.correct = answer.correct;
         }
